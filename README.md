@@ -31,7 +31,9 @@ This backend REST API has the following features:
     - Add issue(s).
     - Can edit the project name etc.
 
-  Only the person who made the project has the power to delete/update the project and he/she is the one who has the power to add/remove collaborator(s). A project will be only visible to its admin (who created it) and the collaborators.
+ The person who made the project has the power to delete/update the project and he/she is the one who has the power to add/remove collaborator(s). 
+ 
+ Other collaborator(s) can just view and update the title of the project. A project will be only visible to its admin (who created it) and all the collaborators.
   
   ## Issue 
   
@@ -39,7 +41,9 @@ This backend REST API has the following features:
   
   An issue is a representation of the real-world problems you encounter in your current project. An issue must be a part of a project. The admin/collaborators of the project can create an issue in that project. The person who created that issue can assign it to an "Assignee" from within the collaborators list or leave it "Unassigned". 
   
-  An issue can be updated/deleted only by the person who created it, the project admin and the person to whom the issue is assigned to. Others can just view the issue.
+  An issue can be updated/deleted only by the person who created it, and the project admin. 
+  
+  The person to whom the issue is assigned to can update only a limited details about the issue. All the others can just view the issue.
   
 ## API Endpoints and HTTP methods
 
