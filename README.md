@@ -73,7 +73,7 @@ First:
 
 Then to setup and start/activate the Backend API server, do the following:
 
-- `cd bugtracker/backend/`
+- `cd Bugtracker-REST-API/`
 
 ## Setting up a virtual environment using venv
 - `python3 -m venv venv` will make a virtual environment
