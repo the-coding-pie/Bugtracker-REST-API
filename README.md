@@ -53,7 +53,6 @@ Other Endpoints (supported HTTP Methods & URLS):
   
   ```
   - GET  - http://localhost:8000/api/v1/users/me/
-  - GET  - http://localhost:8000/api/v1/users/all/
   - POST - http://localhost:8000/api/v1/users/login/
   - POST - http://localhost:8000/api/v1/users/register/
   - GET  - http://localhost:8000/api/v1/users/logout/
