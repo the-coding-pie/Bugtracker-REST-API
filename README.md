@@ -28,7 +28,7 @@ This backend REST API has the following features:
   
   A project is a representation of your current project you are working on. You can create a project and can file issues under that project. Once a project is made, you are the admin of that project. You can now add collaborators so that more people who have "active" accounts can work on that project.  All the collaborators of the project will be able to do:
 
-    - Add and remove issue(s).
+    - Add issue(s).
     - Can edit the project name etc.
 
   Only the person who made the project has the power to delete/update the project and he/she is the one who has the power to add/remove collaborator(s).
