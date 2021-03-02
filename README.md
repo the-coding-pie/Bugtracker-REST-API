@@ -6,7 +6,7 @@ A simple, minimal bug tracker REST API made using Django and Django REST Framewo
 A simple bug tracking REST API made using Django and Django REST Framework. You can use this as a backend for your bug tracking software which you are building. 
 This is a kind of bug tracking system which can be used inside an organization or can be hosted on your own. A user can initially register an account and can start creating projects. Each issue may fall under a project.
 
-<img src="https://ibb.co/PzyXPYg" width="50%" />
+<img src="https://i.ibb.co/gRnQG6Q/new-1.png" width="50%" />
 
 You can have so many collaborators to a project. And you can assign a particular issue to a single Assignee.
 
