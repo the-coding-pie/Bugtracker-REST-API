@@ -16,7 +16,7 @@ This backend REST API has the following features:
   
   ### User Management
   
-  There are two types of users - Admin, and Staff. All the account registered through the API will be by default "Staff" accounts. If you need to make an "Admin" account, then you can use the Django Special Command.
+  There are two types of users - Admin, and Staff. All the account registered through the API will be by default "Staff" account. If you need to make an "Admin" account, then you can use the Django Special Command.
   Admin has all the power to control and manage the whole app where the Staff has a limited but all needed powers.
   
   To use the bug tracker, the user will need to **Register** an account. If he does so, he will get an **Authorization Token** in return. 
@@ -24,14 +24,14 @@ This backend REST API has the following features:
   
   ### Project
   
-  Once an user account is made, then the user will be able to create **Projects**. Every **Issue** is filed under a Project. So before creating an Issue you need a project.
+  Once an user account is made, then the user will be able to create **Project**. Every **Issue** is filed under a Project. So before creating an Issue you need a project.
   
-  A project is a representation of your current project you are working on. You can create a project and can file issues under that project. Once a project is made, you are the admin of that project. You can now add collaborators so that more people who have "active" accounts can work on that project.  All the collaborators of the project will be able to do:
+  A project is a representation of your current project you are working on. It must have a title. You can create a project and can file issues under that project. Once a project is made, you are the admin of that project. You can now add collaborators so that more people who have "active" accounts can file issues to that project.  All the collaborators of the project will be able to do:
 
     - Add issue(s).
     - Can edit the project name etc.
 
- The person who made the project has the power to delete/update the project and he/she is the one who has the power to add/remove collaborator(s). 
+ The person who made the project has the power to delete/update the project and he/she is the only one who has the power to add/remove collaborator(s). 
  
  Other collaborator(s) can just view and update the title of the project. A project will be only visible to its admin (who created it) and all the collaborators.
   
@@ -43,7 +43,7 @@ This backend REST API has the following features:
   
   An issue can be updated/deleted only by the person who created it, and the project admin. 
   
-  The person to whom the issue is assigned to can update only a limited details about the issue. All the others can just view the issue.
+  The person to whom the issue is assigned to can update only a limited details about the issue. All the other collaborator(s) can just view the issue(s) and create new issue(s) in that project.
   
 ## API Endpoints and HTTP methods
 
