@@ -84,6 +84,7 @@ Then to setup and start/activate the Backend API server, do the following:
 
 ## Making migrations
 - `python manage.py makemigrations`
+- `python manage.py makemigrations users projects issues`
 - `python manage.py migrate`
 
 ## Creating the super user
