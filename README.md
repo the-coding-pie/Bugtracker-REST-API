@@ -17,7 +17,7 @@ This backend REST API has the following features:
   ### User Management
   
   There are two types of users - Admin, and Staff. All the account registered through the API will be by default "Staff" accounts. If you need to make an "Admin" account, then you can use the Django Special Command.
-  Admin has all the power to control and manage the whole app where Developer has limited but all needed powers.
+  Admin has all the power to control and manage the whole app where the Staff has a limited but all needed powers.
   
   To use the bug tracker, the user will need to **Register** an account. If he does so, he will get an **Authorization Token** in return. 
   If he/she already have an account, then they can do **Login** instead. 
