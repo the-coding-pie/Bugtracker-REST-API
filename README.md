@@ -65,5 +65,35 @@ Other Endpoints (supported HTTP Methods & URLS):
   - GET, PUT          - http://localhost:8000/api/v1/projects/:key/collaborators/ 
   ```
 
+## How to use it?
 
+First:
+
+- `git clone` or `Download ZIP` this repo `https://github.com/the-coding-pie/Bugtracker-REST-API.git`
+
+Then to setup and start/activate the Backend API server, do the following:
+
+- `cd bugtracker/backend/`
+
+## Setting up a virtual environment using venv
+- `python3 -m venv venv` will make a virtual environment
+- `source venv/bin/activate` to activate the venv. (If you are on windows, then run this instead `venv\Scripts\activate.bat`)
+
+## Installing the requirements
+- `pip install -r requirements.txt` will install the needed backend project requirements
+
+## Making migrations
+- `python manage.py makemigrations`
+- `python manage.py migrate`
+
+## Creating the super user
+- `python manage.py createsuperuser` and provide the needed infos
+
+## Starting the backend API server
+- `python manage.py runserver` will start the Django API server
+
+- At this point, if you want, you can **Login** to the pre-built admin panel by visiting- `http://localhost:8000/admin/` in your browser as the superuser account you just created. From this panel, you will be able to do almost anything to the applicaiton!
+
+<br/>
+Now our backend server is ready to accept the API requests! Try the API with POSTMAN or your frontend App.
 
